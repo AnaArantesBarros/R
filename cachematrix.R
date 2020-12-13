@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
 a <- makeCacheMatrix(rbind(c(1, -1/4), c(-1/4, 1)))
 a
 
-
 ## Creating and appling solve function
 
 cacheSolve <- function(x, ...) {
